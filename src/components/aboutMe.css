@@ -1,0 +1,49 @@
+.Me-container {
+    background-color: black;
+    height: 1000px;
+    
+
+}
+.aboutme-container{
+    width: 100%;
+    display: flex;
+    margin-bottom: -70px;
+}
+.aboutMe-Photo{
+   margin: 0 auto; 
+}
+
+
+.about-container{
+    display: flex;
+    width: 60%;
+    margin: 0 0 0px 30%;
+    justify-content: space-between;
+}
+
+.aboutme-text{
+    width: 660px;
+}
+
+.photo{
+    width:230px;
+    border-radius: 113px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    object-fit: cover;
+    transition: all 0.8s;
+}
+
+.photo:hover{
+    transform: scale(1.50);
+    border-radius: 50px;
+}
+
+.aboutme-text > h4{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
+}

@@ -1,0 +1,45 @@
+.banner {
+    background-color: #81b6af;
+    width: 100%;
+}
+
+.logo-Container{
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    
+
+}
+
+.aboutMe-Container{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.aboutMe {
+    width: 200px;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    height: 200px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 30px;
+}
+
+.banner-texts{
+    display: flex;
+    
+}
